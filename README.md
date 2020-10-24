@@ -11,14 +11,14 @@ Battleship is a war-themed board game for two players in which the opponents try
 * Setting-up Game:
 Each player will be allocated an empty grid (printed), a hidden grid, and five ships.
 
-Before the game starts, each player inputs the coordinates and direction  of their own five ships into an input file. For each player, the program will read input from the input file and generate the hidden grid by laying out the ships and postitioning them onto the grid. Each ship must be placed horizontally or vertically across grid spaces —not diagonally— and the ships can't hang off the grid. Ships can't occupy the same grid space. You cannot change the position of the ships after the game begins. Also, neither player can see his opponent's grid or ship locations.
+Before the game starts, each player inputs the coordinates and direction  of their own five ships into an input file. For each player, the program will read input from the input file and generate the hidden grid by laying out the ships and positioning them onto the grid. Each ship must be placed horizontally or vertically across grid spaces —not diagonally— and the ships can't hang off the grid. Ships can't occupy the same grid space. You cannot change the position of the ships after the game begins. Also, neither player can see his opponent's grid or ship locations.
 
-The 'printed' grid is used to record the shots fired toward the opponent and to document whether those shots were hits (H) or misses (X).
+The  grid is used to record the shots fired toward the opponent and to document whether those shots were hits or misses.
 
 * GamePlay:
 Players take turns calling out row and column coordinates in an attempt to identify a square on the other player's grid that contains a ship. 
 
-On your turn, call out a colum and row. The program then checks that coordinate against the oponent's 'hidden' grid and reports "miss" if there is no ship there, or "hit" if you have correctly guessed a space that is occupied by a ship. The program then updates the 'printed' grid marking each of your shots by using 'H' to document the misses and 'X' to register the hits.
+On your turn, call out a column and row. The program then checks that coordinate against the oponent's 'hidden' grid and reports "miss" if there is no ship there, or "hit" if you have correctly guessed a space that is occupied by a ship. The program then updates the 'printed' grid marking each of your shots depending on whether it was a hit or a miss.
 
 The first player to sink all five of their opponent's ships wins the game.
 
