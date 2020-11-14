@@ -25,7 +25,7 @@ The first player to sink all five of their opponent's ships wins the game.
 
 
 
-# Code Requirments:
+# Code Requirements: 
 * Generation of random game sets or events: We intend to use the function "Begin_Attack()"
 * Data structure for storing game status: Ship Details, Players (using nested data structures).
 * Dynamic memory management: Two Linked Lists to store each players moves.  
@@ -35,4 +35,4 @@ The first player to sink all five of their opponent's ships wins the game.
 
 2- File output for printing a player's record of moves and his record grid. 
 
-We anticipatye that as we hit the ground running in earnest on ther project, that we may tweak a few things to accomodate our expertise on C++ as we progress with the coursework.
+We anticipaty that as we hit the ground running in earnest on the project, that we may tweak a few things to accomodate our expertise on C++ as we progress with the coursework.
