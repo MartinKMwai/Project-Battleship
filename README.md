@@ -35,4 +35,4 @@ The first player to sink all five of their opponent's ships wins the game.
 
 2- File output for printing a player's record of moves and his record grid. 
 
-We anticipaty that as we hit the ground running in earnest on the project, that we may tweak a few things to accomodate our expertise on C++ as we progress with the coursework.
+We anticipate that as we hit the ground running in earnest on the project, that we may tweak a few things to accomodate our expertise on C++ as we progress with the coursework.
