@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
-
 #include "play.h"
+
 using namespace std;
 
 //Declare dimensions of both record
@@ -26,14 +26,12 @@ bool CheckValid(int x, int y, int grid[][columns+1])
 bool Possible_Ship_Expand(int grid[][columns+1], int x, int y, char direction, int size)
 {
   bool valid = false;
-
   if (direction == 'U')
   {
     if (x-size >= 0)
     {
       for (int i = 0; i < size ; ++i)
         if (grid [x-i][y] == 1) return valid;
-
       valid = true;  
       return valid;
     }
@@ -44,8 +42,7 @@ bool Possible_Ship_Expand(int grid[][columns+1], int x, int y, char direction, i
     if(x+size-1 <= 10)
     {
       for (int i = 0; i < size ; ++i)
-        if (grid [x+i][y] == 1) return valid;
-            
+        if (grid [x+i][y] == 1) return valid;     
       valid = true;
       return valid;
     }
@@ -118,4 +115,3 @@ void Expand_Ship(int grid[][columns+1], int x, int y, char direction, int size)
   if (direction == 'R')
     for (int i = 0 ; i < size; ++i)
       grid[x][y+i] = 1;
-  
